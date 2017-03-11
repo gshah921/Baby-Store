@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Beautiful Beginnings</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+</head>
+<body>
+	<img id="colorstrip" class="absolute" alt="color-strip" src="images/colorstrip.jpg"/>
+	<div class="header-row absolute">
+		<div class="callusnav center italic">
+			<div class="left">
+				<p>Call us at: <a href="tel:708-246-1212"><span><b>708-246-1212</b></span></a>
+				</p>
+				<button id="btnchat" class="btnbg hidden-xs">
+					LIVE CHAT NOW
+				</button>
+			</div>
+			<span id="navbar-btns">
+				<button type="button" class="navbar-toggle" id="shopping-cart">
+					<span><img alt="Shopping Cart Logo" src="images/shopping-logo.png" width="22" height="14"></span>
+				</button>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</span>
+			<div class="navlinks right playfair">
+				<ul>
+					<li><a class="italic" href="">Baby Registry</a></li>
+					<li><a class="italic" id="login-link" >Login/Register</a></li>
+					<li class="hidden-xs"><a href=""><span id="totalitems">5 </span> items</a>
+					</li>
+					<li class="hidden-xs"><a href="">Checkout</a>
+						<li class="hidden-xs">
+							<p><b>$2103.92</b></p>
+						</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="login-modal" class="modal">
+			<div class="login-prompt">
+				<span class="close"><img src="images/close-icon.png" width="20" height="20"></span>
+				<div class="credentials">
+					<label><b>Username</b></label>
+					<input type="text" placeholder="Enter Username" name="userid" required>
+
+					<label><b>Password</b></label>
+					<input type="password" placeholder="Enter Password" name="password" required>
+					<button type="submit">Login</button>
+					<button>Register</button>
+				</div>
+				<div class="credentials">
+					<span class="forgotpw"><a href="#">Forgot password?</a></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="body-wrapper">
+		<!-- logo row -->
+		<div class="logo-row">
+			<p class="hidden-xs absolute">
+				Children. Our greatest <br/> 
+				earthly blessings.
+			</p>
+			<input class="right hidden-xs playfair" name="search" placeholder="Search this site..."/>
+		</div>
+		<!-- category links -->
+		<div id="collapsable-nav" class="collapse navbar-collapse  center">
+			<ul id="nav-list" class="nav navbar-nav playfair"> 
+				<li class="dropdown">
+					<a class="dropbtn">Baby Apparel</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Onesies</a> <hr/>
+						<a href="#">All Apparel</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">Baby Gifts</a> 
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Clothes</a><hr/>
+						<a href="#">All Gifts</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">Christening</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Silver</a><hr/>
+						<a href="#">All Christening</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">Furniture</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Sofas</a><hr/>
+						<a href="#">All Furniture</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">Bedding</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Comforters</a><hr/>
+						<a href="#">All Bedding</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">Decor</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Fabric</a><hr/>
+						<a href="#">All Decor</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">Lighting</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Chandeliers</a><hr/>
+						<a href="#">All Lighting</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">Sale</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Clearance</a><hr/>
+						<a href="#">All Sales</a>
+					</div>
+				</li>
+				<li class="dropdown">
+					<a class="dropbtn">BRANDS</a>
+					<div class="dropdown-content absolute hidden-xs">
+						<a href="#">Carter</a><hr/>
+						<a href="#">All Brands</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- rotating images -->
+		<section class="img-rotate left">
+			<img alt="Slideshow Image" class="myPics" src="images/feetrotate.jpg" style="width:100%">
+			<img alt="Slideshow Image" class="myPics" src="images/bedrotate.jpg" style="width:100%">
+			<div id="cribsale" class="center playfair absolute">
+				<span>Crib Bedding Sale</span>
+				<p>
+					Save up to 50% off on
+					select crib bedding now
+					through Memorial Day!
+				</p>
+				<div id="btnbedding">
+					<button class="btnbg">SHOP CRIB BEDDING</button>
+				</div>
+			</div>
+		</section>
+		<!-- featured products -->
+		<section class="featured-tiles center row playfair">
+			<div class="col-md-3 col-sm-12 col-xs-12 .col-xxs-12">
+				<div id="products-tile" class="center">
+					<h2>Featured  Products</h2>
+					<p>Lorem ipsum dolor sit amet, eu ius <br/ class="visible-xs"> erat commune, facer semper sea ad. </p>
+					<button class="btnbg" id="btnseeall">
+						SEE ALL
+					</button>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12 .col-xxs-12">
+				<a href=""><div class="prodpreview-tile"><img class="prodimage" alt="Featured Dress" src="images/featured-products/featureddress.png"></div> </a>
+				<p>Hazel Ruffle Top and Capri Set by Angel Dear</p>
+				<span><b>$49.00</b></span>
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12 .col-xxs-12">
+				<a href=""><div class="prodpreview-tile"><img class="prodimage" alt="Featured Crib" src="images/featured-products/featuredcottage.png"></div> </a>
+				<p>Alexis Crib with Rose Garland by Newport Cottages</p>
+				<span><b>$1,395.00</b></span>
+			</div>
+			<div class="col-md-3 col-sm-4 col-xs-12 .col-xxs-12">
+				<a href=""><div class="prodpreview-tile"><img class="prodimage" alt="Featured Giraffe Plush" src="images/featured-products/featuredgiraffe.png"></div> </a>
+				<p>Little G Plush Giraffe by Little Giraffe</p>
+				<span><b>$42.00</b></span>
+			</div>
+		</section>
+		<!-- about us -->
+		<section class="aboutus">
+			<div>
+				<h2>We Love Babies</h2>
+				<p>Beautiful Beginnings offers finely crafted baby cribs as well as complete suites of nursery furniture, from traditional to contemporary. All of the finest names in crib bedding and baby blankets are featured with thousands of fabrics available to customize your baby crib. We offer everything you need to personalize your baby nursery with one of a kind nursery decor from distinctive lamps, clocks, wall hangings, picture frames and other decorative items. 
+				</p>
+				<p>
+					To receive a gift from Beautiful Beginnings is a new mom’s biggest wish. There are so many unique and beautiful baby gifts to select from including baby burp cloths, designer diaper bags, baby clothes and many baby toys. Whether you are looking for Christening gifts, a baby shower gift, a newborn gift or even a gift for a child’s third birthday, we have many baby gifts to choose from. And to add to the pleasure, Beautiful Beginnings offers complimentary gift wrap in their "exclusive" gift wrap and daily shipping of gifts via UPS. One stop shopping for all family and friends. <a href=""><b><u> <br/> More About Us </u></b></a>
+				</p>
+				<p>
+					Love, Debbie  & Jackie
+				</p>
+			</div>
+		</section>
+		<!-- footer -->
+		<footer class="panel-footer playfair">
+			<!-- footer sections visible < 766px -->
+			<section>
+				<button class="footer-collapse-btn visible-xs" data-toggle="collapse" data-target="#aboutus-btn">About Us <span class="right"></span></button>
+				<div class="collapse left" id="aboutus-btn">
+					<ul>
+						<li><a href="">Our Story</a></li>
+						<li><a href="">Baby Registry</a></li>
+						<li><a href="">Store Location</a></li>
+						<li><a href="">Testimonials</a></li>
+					</ul>
+				</div>
+				<button class="footer-collapse-btn visible-xs" data-toggle="collapse" data-target="#service-btn">Service <span class="right"></span></button>
+				<div class="collapse left" id="service-btn">
+					<ul>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">Order Status</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">Shipping Policy</a></li>
+						<li><a href="">Return Policy</a></li>
+						<li><a href="">Newsletter</a></li>
+						<li><a href="">My Account</a></li>
+						<li><a href="">Live Chat</a></li>
+					</ul>
+				</div>
+				<button class="footer-collapse-btn visible-xs" data-toggle="collapse" data-target="#shop-btn">Shop <span class="right"></span></button>
+				<div class="collapse left" id="shop-btn">
+					<ul>
+
+						<li><a href="">Baby Apparel</a></li>
+						<li><a href="">Baby Gifts</a></li>
+						<li><a href="">Christening</a></li>
+						<li><a href="">Furniture</a></li>
+						<li><a href="">Bedding</a></li>
+						<li><a href="">Decor</a></li>
+						<li><a href="">Lighting</a></li>
+						<li><a href="">Sale</a></li>
+						<li><a href="">Brands</a></li>
+					</ul>
+				</div>
+			</section>
+			<!-- footer sections visible > 767px -->
+			<section class="hidden-xs">
+				<div class="left">
+					<a href=""><span>About Us</span></a>
+					<ul>
+						<li><a href="">Our Story</a></li>
+						<li><a href="">Baby Registry</a></li>
+						<li><a href="">Store Location</a></li>
+						<li><a href="">Testimonials</a></li>
+					</ul>
+				</div>
+				<div class="left">
+					<a href=""><span>Service</span></a>
+					<ul>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">Order Status</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">Shipping Policy</a></li>
+						<li><a href="">Return Policy</a></li>
+						<li><a href="">Newsletter</a></li>
+						<li><a href="">My Account</a></li>
+						<li><a href="">Live Chat</a></li>
+					</ul>
+				</div>
+				<div class="left">
+					<ul>
+						<a href=""><span>Shop</span></a>
+						<li><a href="">Baby Apparel</a></li>
+						<li><a href="">Baby Gifts</a></li>
+						<li><a href="">Christening</a></li>
+						<li><a href="">Furniture</a></li>
+						<li><a href="">Bedding</a></li>
+						<li><a href="">Decor</a></li>
+						<li><a href="">Lighting</a></li>
+						<li><a href="">Sale</a></li>
+						<li><a href="">Brands</a></li>
+					</ul>
+				</div>
+			</section>
+			<div id="contactus" class="left">
+				<a href=""><span>Contact Us</span></a><br/>
+				<b>Beautiful Beginnings</b><br/>
+				4472 Lawn Avenue <br/> Western Springs, IL. <br/> 60558 <br/>
+				708.246.1212 <br/>
+				<b>Store Hours</b> <br/>
+				<ul>
+					<li>Monday - Friday 10am - 5:30pm</li>
+					<li>Saturday - 10am - 5pm</li>
+					<li>Sunday - Closed</li>
+				</ul>
+			</div>
+			<div id="followus" class="left">
+				<a href=""><span>Follow Us</span></a>
+				<ul>
+					<li><a href=""><img alt="social media logo" class="left" src="images/socialmedia/facebook.png"></a></li>
+					<li><a href=""><img alt="social media logo" class="left" src="images/socialmedia/twitter.png"></a></li>
+					<li><a href=""><img alt="social media logo" class="left" src="images/socialmedia/pinterest.png"></a></li>
+					<li><a href=""><img alt="social media logo" class="left" src="images/socialmedia/youtube.png"></a></li>
+					<li><a href=""><img alt="social media logo" class="left" src="images/socialmedia/google.png"></a></li>
+				</ul> 
+				<a href=""><span>Newsletter</span></a>
+				<p class="italic">Get the latest promotions and special offers delivered directly to your inbox!</p>
+				<input name="subscribe" placeholder="Email Address...">
+				<button class="btnbg">SEND</button>
+			</div>
+		</footer>
+		<img class="left" id="imgbottomstrip" alt="color-strip" src="images/bottomstrip.jpg">
+	</div>
+	<!-- copyright section -->
+	<section class="copyright-section center">
+		<div id="copyright-text" class="pull-left">
+			<div id="bottomlinks">
+				<ul>
+					<li>©2013 Beautiful Beginnings. All Rights Reserved </li> <br/ class="visible-xs">
+					<li><a href="">Site Map</a></li>
+					<li><a href="">Privacy Policy</a></li>
+					<li><a href="">Terms & Conditions</a></li>
+				</ul>
+			</div> 
+			<div id="poweredby">
+				<div>
+					<span class="playfair">
+						<b>POWERED BY:</b> americaneagle.com
+					</span>
+					<p class="hidden-xs">Web Site design and development by Americaneagle.com</p>
+				</div>
+			</div>
+		</div>
+		<img class="pull-right" id="logobottom" alt="Footer Logo" src="images/logo.png">
+	</section>
+
+
+	<script src="scripts/jquery-2.1.4.min.js"></script>
+	<script src="scripts/bootstrap.min.js"></script>
+	<script src="scripts/script.js"></script>
+
+
+</body>
+</htmls
